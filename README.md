@@ -10,10 +10,10 @@ This will be different for Users, so follow the appropriate instructions.
 For windows, we can use Windows Subystem for Linux 2 (WSL2).
 Go ahead and download ubuntu 18.04 LTS from the Microsoft Store.
 If this is the first time setting up a VM you'll have to change a few settings.
-There's a tutorial on how to do this [https://docs.microsoft.com/en-us/windows/wsl/install-win10](here)
+There's a tutorial on how to do this [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)
 Go ahead and turn it on, and make sure you can see the terminal.
 
-WSL2 only allows for terminal use, but we need to allow programs to run in their own windows, so we'll use a program called [https://sourceforge.net/projects/vcxsrv/](VcxSrv)
+WSL2 only allows for terminal use, but we need to allow programs to run in their own windows, so we'll use a program called [VcxSrv](https://sourceforge.net/projects/vcxsrv/)
 Download and install this, then launch the app. Stick with the default settings except for the box 'Native OpenGL' which you should turn off.
 After that run this code in your linux terminal to let it connect to VcxSrv
 ```
@@ -25,7 +25,7 @@ Now you should be all set to install ROS
 #Mac
 (Please note I don't have a Mac and don't know much about them so I'm kinda just following others here)
 For windows we're going to use Virtualbox 6.1
-Go ahead and download install from [https://www.virtualbox.org/wiki/Downloads](here)
+Go ahead and download install from [here](https://www.virtualbox.org/wiki/Downloads)
 Then run the application, and create a new VM by clicking the add button
 We'll be using Ubuntu 18.04 LTS
 You can keep the default settings for RAM, CPU etc, just don't allocate more than half your system resources.
