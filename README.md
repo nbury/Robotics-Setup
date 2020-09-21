@@ -4,9 +4,9 @@ This repo is going to be for helping everyone setup a virtual machine with ROS i
 (If you already have an Ubuntu 18.04 VM go ahead and skip to ROS setup)
 This will be different for Users, so follow the appropriate instructions.
 
-#VM Setup
+# VM Setup
 
-#Windows
+## Windows
 For windows, we can use Windows Subystem for Linux 2 (WSL2).
 Go ahead and download ubuntu 18.04 LTS from the Microsoft Store.
 If this is the first time setting up a VM you'll have to change a few settings.
@@ -22,7 +22,7 @@ source ~/.bashrc
 ```
 Now you should be all set to install ROS
 
-#Mac
+## Mac
 (Please note I don't have a Mac and don't know much about them so I'm kinda just following others here)
 For windows we're going to use Virtualbox 6.1
 Go ahead and download install from [here](https://www.virtualbox.org/wiki/Downloads)
@@ -32,7 +32,7 @@ You can keep the default settings for RAM, CPU etc, just don't allocate more tha
 You will need to create a virtual hard disk to store the data on. When that comes up, select that option, and allocate 20GB or so.
 Then boot into the VM and go through the OS setup, and you should be all set.
 
-#Setting up ROS
+# Setting up ROS
 First we have to connect to the ROS repos, this is done by running there commands:
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
