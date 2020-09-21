@@ -11,7 +11,7 @@ For windows, we can use Windows Subystem for Linux 2 (WSL2).\
 Go ahead and download ubuntu 18.04 LTS from the Microsoft Store.\
 If this is the first time setting up a VM you'll have to change a few settings.
 There's a tutorial on how to do this [here](https://docs.microsoft.com/en-us/windows/wsl/install-win10)\
-Go ahead and turn it on, and make sure you can see the terminal.\
+Go ahead and turn it on, and make sure you can see the terminal.
 
 WSL2 only allows for terminal use, but we need to allow programs to run in their own windows, so we'll use a program called [VcxSrv](https://sourceforge.net/projects/vcxsrv/)\
 Download and install this, then launch the app. Stick with the default settings except for the box 'Native OpenGL' which you should turn off.\
