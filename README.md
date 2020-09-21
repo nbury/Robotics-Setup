@@ -2,7 +2,7 @@
 Hi everyone!
 This repo is going to be for helping everyone setup a virtual machine with ROS installed, as well as a few other things to help us in the future.\
 (If you already have an Ubuntu 18.04 VM go ahead and skip to ROS setup)\
-This will be different for Users, so follow the appropriate instructions.\
+This will be different for Users, so follow the appropriate instructions.
 
 # VM Setup
 
@@ -15,7 +15,7 @@ Go ahead and turn it on, and make sure you can see the terminal.\
 
 WSL2 only allows for terminal use, but we need to allow programs to run in their own windows, so we'll use a program called [VcxSrv](https://sourceforge.net/projects/vcxsrv/)\
 Download and install this, then launch the app. Stick with the default settings except for the box 'Native OpenGL' which you should turn off.\
-After that run this code in your linux terminal to let it connect to VcxSrv\
+After that run this code in your linux terminal to let it connect to VcxSrv
 ```
 echo "export DISPLAY=:0" >> ~/.bashrc
 source ~/.bashrc
@@ -30,7 +30,7 @@ Then run the application, and create a new VM by clicking the add button\
 We'll be using Ubuntu 18.04 LTS\
 You can keep the default settings for RAM, CPU etc, just don't allocate more than half your system resources.\
 You will need to create a virtual hard disk to store the data on. When that comes up, select that option, and allocate 20GB or so.\
-Then boot into the VM and go through the OS setup, and you should be all set.\
+Then boot into the VM and go through the OS setup, and you should be all set.
 
 # Setting up ROS
 First we have to connect to the ROS repos, this is done by running there commands:
