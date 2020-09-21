@@ -88,4 +88,4 @@ Congrats! ROS is now all set up
 [ROS Melodic tutorials](http://wiki.ros.org/ROS/Tutorials)\
 [Gazebo Tutorials](http://gazebosim.org/tutorials)\
 [Virtualbox installation guide](https://www.virtualbox.org/manual/ch01.html#gui-createvm)\
-[Medium Blog on setting up ROS on windows](https://medium.com/fresnostatedx/ros-environment-setup-for-windows-without-virtualbox-8fc14faad59e#:~:text=In%20order%20to%20run%20any,apps%20directly%20from%20Ubuntu%20WSL.&text=Note%3A%20Make%20sure%20you%20start,GUI%20apps%20from%20Ubuntu%20WSL.)\
+[Medium Blog on setting up ROS on windows](https://medium.com/fresnostatedx/ros-environment-setup-for-windows-without-virtualbox-8fc14faad59e#:~:text=In%20order%20to%20run%20any,apps%20directly%20from%20Ubuntu%20WSL.&text=Note%3A%20Make%20sure%20you%20start,GUI%20apps%20from%20Ubuntu%20WSL.)
