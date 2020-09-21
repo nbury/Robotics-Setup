@@ -55,12 +55,12 @@ Once that is done, lets test our setup by starting a ROS environment and booting
 echo "source /opt/ros/melodic/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-This adds all the ROS environment variables to your terminal.
-Finally, we can start ROS.
+This adds all the ROS environment variables to your terminal.\
+Finally, we can start ROS.\
+This should open a gazebo window with an empty world and a small robot
 ```
 gazebo worlds/pioneer2dx.world
 ```
-This should open a gazebo window with an empty world and a small robot
 If that doesn't work try running this in your current terminal
 ```
 gzserver worlds/pioneer2dx.world
