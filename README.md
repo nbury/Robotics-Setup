@@ -14,7 +14,8 @@ There's a tutorial on how to do this [here](https://docs.microsoft.com/en-us/win
 Go ahead and turn it on, and make sure you can see the terminal.
 
 WSL2 only allows for terminal use, but we need to allow programs to run in their own windows, so we'll use a program called [VcxSrv](https://sourceforge.net/projects/vcxsrv/)\
-Download and install this, then launch the app. Stick with the default settings except for the box 'Native OpenGL' which you should turn off.\
+Download and install this, then launch the app, which will be called XLauch now.\
+Stick with the default settings except for the box 'Native OpenGL' which you should turn off. (This is in the extra settings box)\
 After that run this code in your linux terminal to let it connect to VcxSrv
 ```
 echo "export DISPLAY=:0" >> ~/.bashrc
@@ -41,8 +42,10 @@ sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31
 Now lets get any updates for any other services that ROS may depend on.
 ```
 sudo apt update
+sudo apt upgrade
 ```
-Finally, lets install ROS, this will take a while
+Finally, lets install ROS, Windows may ask for administrator permissions during this.
+**THIS MAY TAKE LIKE 15 MINUTES**
 ```
 sudo apt install ros-melodic-desktop-full
 ```
